@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "841899999376",
+    "firebase_url": "https://rentcycle-e6bf5.firebaseio.com",
+    "project_id": "rentcycle-e6bf5",
+    "storage_bucket": "rentcycle-e6bf5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:841899999376:android:89609a2cf24450aa50d815",
+        "android_client_info": {
+          "package_name": "com.example.trycyle"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "841899999376-pt7h768gopd6i9ebsqhenp05o0fc018s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARuN1pCAjTMeIFHqY-E6HBfHM6KjzqdoQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "841899999376-pt7h768gopd6i9ebsqhenp05o0fc018s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
