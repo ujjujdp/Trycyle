@@ -56,9 +56,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 toast("create accout");
+                Intent intent=new Intent(MainActivity.this , CreateAccount.class);
+                startActivity(intent);
+
 
             }
         });
+
 
     }
 
