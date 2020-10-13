@@ -10,25 +10,32 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.example.trycyle.model.Cycle;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 
 public class MainActivity extends AppCompatActivity {
 
     Button signin,createAcc;
     EditText username,password;
     private FirebaseAuth mAuth;
+    FirebaseDatabase database;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         //buutons
+
+
         createAcc = findViewById(R.id.createAccount);
         signin=findViewById(R.id.signin);
         mAuth=FirebaseAuth.getInstance();
-        //jhkjhf
+
         signin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
