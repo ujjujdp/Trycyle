@@ -44,6 +44,7 @@ public class CreateAccount extends AppCompatActivity {
                 toast("create account in create page");
                 String u=email.getText().toString();
                 String p=password.getText().toString();
+                final String name=username.getText().toString();
                 mAuth.createUserWithEmailAndPassword(u,p).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
@@ -52,17 +53,17 @@ public class CreateAccount extends AppCompatActivity {
                             FirebaseUser currentUser = mAuth.getCurrentUser();
                             DatabaseReference myRef = database.getReference("user/"+currentUser.getUid());
 
-                            user a=new user("Akash",7);
+                            user a=new user(name,0);
                             myRef.setValue(a);
                             toast(currentUser.getUid());
 
                         }else{
                             toast(task.getException().toString());
-                        }
+               }
                     }
                 });
             }
-        });
+            });
 
     }
 

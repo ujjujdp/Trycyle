@@ -24,7 +24,7 @@
         android:layout_marginTop="71dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Name"
+        android:text="admin@a.com"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
@@ -36,6 +36,7 @@
         android:layout_marginTop="60dp"
         android:ems="10"
         android:inputType="textPassword"
+        android:text="qwertyuiop"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/username" />
 
