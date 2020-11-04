@@ -49,6 +49,8 @@ public class MainActivity extends AppCompatActivity {
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if(task.isSuccessful()){
                             toast("user is loggined");
+                            Intent intent=new Intent(MainActivity.this , MainActivity_home.class);
+                            startActivity(intent);
                         }else{
                             toast(task.getException().toString());
                         }
