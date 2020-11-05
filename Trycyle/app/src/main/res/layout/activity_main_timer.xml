@@ -22,7 +22,7 @@
         android:layout_height="40dp"
         android:layout_marginStart="127dp"
         android:layout_marginTop="93dp"
-        android:text="TextView"
+        android:text="End time Here!!"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/starttime" />
 
@@ -32,7 +32,7 @@
         android:layout_height="88dp"
         android:layout_marginTop="120dp"
         android:layout_marginBottom="264dp"
-        android:text="Button"
+        android:text="End Journey"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/endtime"
         tools:layout_editor_absoluteX="108dp" />

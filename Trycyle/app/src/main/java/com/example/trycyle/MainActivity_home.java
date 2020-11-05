@@ -23,7 +23,6 @@ import com.google.firebase.database.Query;
 import com.google.firebase.database.ValueEventListener;
 
 
-i
 
 public class MainActivity_home extends AppCompatActivity {
 
