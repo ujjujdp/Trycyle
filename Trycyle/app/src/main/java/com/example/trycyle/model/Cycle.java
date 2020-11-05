@@ -6,9 +6,12 @@ public class Cycle implements Serializable {
     String name;
     String code;
 
+
     String status;  //0 mean free and 1 mean taken
 
+    public Cycle(){
 
+    }
 
     public Cycle(String name, String code, String status) {
         this.name = name;

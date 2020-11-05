@@ -1,10 +1,13 @@
 package com.example.trycyle.model;
 
 public class CycleTransaction {
+
     
     Cycle c;
     String Uid;
     int rate;
+
+
     long time;
 
 
@@ -29,8 +32,10 @@ public class CycleTransaction {
         return Uid;
     }
 
+
     public int getRate() {
         return rate;
     }
 
+    public int get_fair(int rate,long time){return (int) (rate*time);}
 }
