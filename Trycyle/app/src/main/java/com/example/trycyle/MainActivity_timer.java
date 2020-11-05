@@ -59,6 +59,10 @@ public class MainActivity_timer extends AppCompatActivity {
         Date c= Calendar.getInstance().getTime();
         starttime.setText(c.toString());
         final Cycle finalCurrent_cycle = current_cycle;
+
+        current_cycle.setStatus("1");
+        //Reached to destination
+
         end.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -67,9 +71,15 @@ public class MainActivity_timer extends AppCompatActivity {
                 Date c=Calendar.getInstance().getTime();
                 endtime.setText(c.toString());
 
-                CycleTransaction cycle_tran = new CycleTransaction(finalCurrent_cycle,currentUser.getUid(),1,100);
+
+                CycleTransaction cycle_tran = new CycleTransaction(finalCurrent_cycle,currentUser.getUid(),1,end-start);
 
                 myRef.setValue(cycle_tran);
+
+
+
+
+
 
             }
         });
