@@ -60,6 +60,10 @@ public class MainActivity_home extends AppCompatActivity {
                             //starttime[0] =System.currentTimeMillis();
                             Intent intent=new Intent(MainActivity_home.this , MainActivity_timer.class);
                             intent.putExtra("cycle",avi_cycle);
+
+                            DatabaseReference cycle_status = database.getReference("cycle/"+avi_cycle.getCode()+"/"+"status");
+                            cycle_status.setValue("1");
+
                             startActivity(intent);
 
                         }
