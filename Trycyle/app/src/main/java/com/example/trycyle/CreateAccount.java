@@ -35,7 +35,7 @@ public class CreateAccount extends AppCompatActivity {
 
         username=findViewById(R.id.name);
         email=findViewById(R.id.email);
-        password=findViewById(R.id.Password);
+        password=findViewById(R.id.password);
         createAcc=findViewById(R.id.create_account);
 
         createAcc.setOnClickListener(new View.OnClickListener() {
