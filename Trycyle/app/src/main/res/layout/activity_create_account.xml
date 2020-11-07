@@ -147,9 +147,16 @@
                 android:id="@+id/create_account"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="10dp"
                 android:text="Register"
-                android:textSize="30sp">
+                android:textSize="20sp">
+            </Button>
+            <Button
+                android:id="@+id/createAccount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30sp"
+                android:text="Already a User? SIGN IN!">
             </Button>
         </LinearLayout>
     </LinearLayout>
