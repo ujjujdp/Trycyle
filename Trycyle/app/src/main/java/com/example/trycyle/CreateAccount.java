@@ -41,7 +41,7 @@ public class CreateAccount extends AppCompatActivity {
         createAcc.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                toast("create account in create page");
+                toast("Account Created");
                 String u=email.getText().toString();
                 String p=password.getText().toString();
                 final String name=username.getText().toString();
