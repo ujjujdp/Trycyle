@@ -5,12 +5,13 @@
     android:layout_height="100dp"
     android:background="@drawable/back"
     >
-    <ImageView
-        android:layout_width="430dp"
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="match_parent"
         android:layout_height="100dp"
-        android:src="@drawable/cycling"
-        android:layout_gravity="right">
-    </ImageView>
+        android:src="@drawable/cycle"
+        android:layout_gravity="end">
+    </pl.droidsonroids.gif.GifImageView
 
 
 </LinearLayout>
