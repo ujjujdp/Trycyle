@@ -11,6 +11,7 @@
         android:layout_height="100dp"
         android:src="@drawable/cycle"
         android:layout_gravity="end">
-    </pl.droidsonroids.gif.GifImageView>
+    </pl.droidsonroids.gif.GifImageView
+
 
 </LinearLayout>
